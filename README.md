@@ -11,7 +11,7 @@ why ???
 
 Tyler mcginnis says about fourth reasons why we should use react and they are:
 
-### 1.Compositional model
+### 1. Compositional model
    Composition occurrs when we join simple functions to contruct another function more complex. We can think a simple function    as a role that do one thing and that's what React do when we build a page combining various functions.
    
 ### 2. Declarative nature
@@ -27,12 +27,27 @@ Tyler mcginnis says about fourth reasons why we should use react and they are:
    
 Now we already know why use React, so it's important talk about some fundamentals concepts that envolve this library:
 
-* UI render
-* JSX
-* Props
+* UI render:
+React use JS objects to create an UI. We just have to describe de element that we want e let de responsability of     manipulate the DOM with React.
+
+* JSX:
+It's a extension of JS language that join HTML and JS.
+* Props:
+This is how we call the way to pass values from a component to another one.
 * State
-* Components
+Is the place where we can store the behavior (state) of the aplication and we can use this for update the UI when is required.
 * Stateless Components or Functional Components
-* Controled Components
+When the component doesn't have a internal state and your role is just to render something, we call this stateless component
+* Controlled Components
+We use this therme to refer a component that represent a form and your behavior depends of the internal state in this component and not inside the DOM.
+
+... for now, it's enough of alot of talk.
+let me show some exercices that i use to fix theses concepts in mu head.
+
+* FilmList
+* MathGame
+* ContactsApp
+
+
 
 
