@@ -24,3 +24,15 @@ Tyler mcginnis says about fourth reasons why we should use react and they are:
     
 ### 4. It's just JAVASCRIPT!!
    Learn react isn't about learn a library to build something, learn react is about improve your skills with javascript and be    prepared for incomming changes of the language.
+   
+Now we already know why use React, so it's important talk about some fundamentals concepts that envolve this library:
+
+* UI render
+* JSX
+* Props
+* State
+* Components
+* Stateless Components or Functional Components
+* Controled Components
+
+
