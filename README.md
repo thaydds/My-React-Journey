@@ -37,8 +37,10 @@ This is how we call the way to pass values from a component to another one.
 
 **State**:
 Is the place where we can store the behavior (state) of the aplication and we can use this for update the UI when is required.
+
 **Stateless Components or Functional Components**:
 When the component doesn't have an internal state, but rather its role is just to render something, we call this stateless component
+
 **Controlled Components**
 We use this term to refer a component that represents a form and your behavior depends of the internal state in this component and not inside the DOM.
 
