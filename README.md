@@ -44,9 +44,15 @@ We use this term to refer a component that represents a form and your behavior d
 ...It's enough of talking?.
 let me show some exercices that i use to wrap my head around these concepts.
 
-* FilmList
-* MathGame
-* ContactsApp
+* [Hello React World](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/1-FM)
+* [UsersFavoriteMovies](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/2-UsersFavoriteMovies)
+* [UsersFavoriteMovies (FunctionalComponent)](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/3-UsersFavoriteMovies (FunctionalComponent))
+* [Math Game](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/4-MathGame)
+* [Input Mirror](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/5-InputMirror)
+* [Shopṕing APP](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/6-ShoppingApp)
+* [CreateUser APP](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/7-CreaterUserApp)
+* [Chat APP](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/8-ChatApp)
+
 
 
 
