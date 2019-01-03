@@ -25,7 +25,7 @@ how to change Parent state with a children component.
 
 1.App.js
 
-```javscript
+```javascript
   state = {
     numQuestions: 0,
     numCorrect: 0,
