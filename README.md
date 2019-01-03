@@ -76,6 +76,22 @@ there is so many events but we can separate in three category:
 ### 3.Remove From DOM
 * componentWillUnmount()
 
+### React Router
 
+The React Router turns React projects into single-page applications and does this by providing some specialized components that manage link building and application URLs, provide transitions between different URLs, and more.
+
+so.. lets talk about some components
+
+### BrowserRouter
+ We need to envolve our app into this component to react router works fine. It provides too a history to manage the URL changes.
+ 
+### Link
+ Works similar to the HTML tag <a>
+   
+   ```javascript
+   <Link to="/about">About</Link>
+   ```
+### Router
+ The component whos' decide what component will be render according the URL path
 
 
