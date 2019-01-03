@@ -26,19 +26,20 @@ Tyler mcginnis tells four reasons why we should use react and they are:
    
 Now we already know why use React, so it's important to talk about some fundamentals concepts that envolve this library:
 
-* UI render:
+**UI render**:
 React uses JS objects to create an UI. We just have to describe the element that we want e let de responsability of     manipulating the DOM with React.
 
-* JSX:
+**JSX**:
 It's a extension of JS language that joins HTML and JS.
-* Props:
+
+**Props**:
 This is how we call the way to pass values from a component to another one.
 
-* State
+**State**:
 Is the place where we can store the behavior (state) of the aplication and we can use this for update the UI when is required.
-* Stateless Components or Functional Components
+**Stateless Components or Functional Components**:
 When the component doesn't have an internal state, but rather its role is just to render something, we call this stateless component
-* Controlled Components
+**Controlled Components**
 We use this term to refer a component that represents a form and your behavior depends of the internal state in this component and not inside the DOM.
 
 ...It's enough of talking?.
@@ -53,6 +54,27 @@ let me show some exercices that i use to wrap my head around these concepts.
 * [CreateUser APP](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/7-CreaterUserApp)
 * [Chat APP](https://github.com/thaydds/My-React-Journey/tree/master/React%20Fundamentals/8-ChatApp)
 
+### React Component Life-Cycle
+
+It's essencial knows react component life-cycle to use that 'tricks' to make ajax requisition, update state and more.
+<img src="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/March/5abae243_nd019-c1-l4-lifecycle-events/nd019-c1-l4-lifecycle-events.png" />
+
+there is so many events but we can separate in three category:
+
+### 1.Adding to DOM
+* constructor()
+* componentWillMount()
+* render()
+* componentDidMount()
+
+### 2.Render the DOM AGAIN
+* componentWillReceiveProps()
+* shouldComponentUpdate()
+* render()
+* componentDidUpdate()
+
+### 3.Remove From DOM
+* componentWillUnmount()
 
 
 
